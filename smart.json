@@ -4,11 +4,14 @@
   "homepage": "https://github.com/aknuds1/chuckjs",
   "author": "Arve Knudsen (https://github.com/aknuds1)",
   "version": "0.0.0",
-  "git": "git@github.com:aknuds1/chuckjs.git",
+  "git": "https://github.com/aknuds1/meteor-chuckjs",
   "packages": {
     "q": {},
     "underscore-string-latest": {},
-    "require": {},
+    "require": {
+        "git": "https://github.com/aknuds1/meteor-require.git",
+        "branch": "fixes"
+        },
     "lodash": {}
   }
 }
