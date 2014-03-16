@@ -8,7 +8,7 @@
   "packages": {
     "q": {},
     "underscore": {},
-    "underscore.string": {},
+    "underscore-string-latest": {},
     "require": {}
   }
 }
