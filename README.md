@@ -1,4 +1,4 @@
 meteor-chuckjs
 ==============
 
-Meteor package for ChucKJS
+Meteor package for ChucKJS.
