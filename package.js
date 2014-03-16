@@ -4,7 +4,7 @@ Package.describe({
 
 Package.on_use(function (api) {
     api.use('require');
-    api.use('underscore.string');
+    api.use('underscore-string-latest');
     api.use('q');
 
     api.add_files('lib/chuck.js', 'client');
