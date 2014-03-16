@@ -7,7 +7,6 @@
   "git": "git@github.com:aknuds1/chuckjs.git",
   "packages": {
     "q": {},
-    "underscore": {},
     "underscore-string-latest": {},
     "require": {}
   }
