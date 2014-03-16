@@ -3,9 +3,10 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-    api.use('require');
+    api.use('lodash');
     api.use('underscore-string-latest');
     api.use('q');
+    api.use('require');
 
     api.add_files('lib/chuck.js', 'client');
     api.add_files('lib/parser.js', 'client');
