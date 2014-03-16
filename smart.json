@@ -4,5 +4,11 @@
   "homepage": "https://github.com/aknuds1/chuckjs",
   "author": "Arve Knudsen (https://github.com/aknuds1)",
   "version": "0.0.0",
-  "git": "git@github.com:aknuds1/chuckjs.git"
+  "git": "git@github.com:aknuds1/chuckjs.git",
+  "packages": {
+    "q": {},
+    "underscore": {},
+    "underscore.string": {},
+    "require": {}
+  }
 }
