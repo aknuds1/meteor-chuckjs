@@ -9,7 +9,6 @@ Package.on_use(function (api) {
     api.use('require');
 
     api.add_files('lib/chuck.js', 'client');
-    api.add_files('lib/parser.js', 'client');
     api.add_files('lib/chuck/audioContextService.js', 'client');
     api.add_files('lib/chuck/helpers.js', 'client');
     api.add_files('lib/chuck/instructions.js', 'client');
@@ -17,6 +16,7 @@ Package.on_use(function (api) {
     api.add_files('lib/chuck/logging.js', 'client');
     api.add_files('lib/chuck/namespace.js', 'client');
     api.add_files('lib/chuck/nodes.js', 'client');
+    api.add_files('lib/chuck/parser.js', 'client');
     api.add_files('lib/chuck/parserService.js', 'client');
     api.add_files('lib/chuck/scanner.js', 'client');
     api.add_files('lib/chuck/types.js', 'client');
