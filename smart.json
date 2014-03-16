@@ -8,6 +8,7 @@
   "packages": {
     "q": {},
     "underscore-string-latest": {},
-    "require": {}
+    "require": {},
+    "lodash": {}
   }
 }
