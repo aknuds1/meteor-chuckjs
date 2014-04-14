@@ -3,15 +3,12 @@
   "description": "JavaScript (CoffeeScript) parser for the ChucK language",
   "homepage": "https://github.com/aknuds1/chuckjs",
   "author": "Arve Knudsen (https://github.com/aknuds1)",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "git": "https://github.com/aknuds1/meteor-chuckjs",
   "packages": {
     "q": {},
     "underscore-string-latest": {},
-    "require": {
-        "git": "https://github.com/aknuds1/meteor-require.git",
-        "branch": "fixes"
-        },
+    "define": {},
     "lodash": {}
   }
 }
