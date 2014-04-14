@@ -8,6 +8,7 @@ Package.on_use(function (api) {
     api.use('q');
     api.use('define');
 
+    api.add_files('replace_underscore.js');
     api.add_files('lib/chuck.js', 'client');
     api.add_files('lib/chuck/audioContextService.js', 'client');
     api.add_files('lib/chuck/helpers.js', 'client');
