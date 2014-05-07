@@ -26,4 +26,5 @@ Package.on_use(function (api) {
     api.add_files('lib/chuck/libs/math.js', 'client');
     api.add_files('lib/chuck/libs/std.js', 'client');
     api.add_files('lib/chuck/libs/stk.js', 'client');
+    api.add_files('lib/chuck/libs/ugens.js', 'client');
 });
