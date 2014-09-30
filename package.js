@@ -1,30 +1,17 @@
 Package.describe({
-    summary: 'JavaScript (CoffeeScript) parser for the ChucK language'
+  summary: 'Interpreter for the ChucK music programming language',
+  version: "0.1.1",
+  name: 'aknudsen:chuckjs',
+  git: "https://github.com/aknuds1/chuck",
 });
 
-Package.on_use(function (api) {
-    api.use('lodash');
-    api.use('underscore-string-latest');
-    api.use('q');
-    api.use('define');
-
-    api.add_files('replace_underscore.js');
-    api.add_files('lib/chuck.js', 'client');
-    api.add_files('lib/chuck/audioContextService.js', 'client');
-    api.add_files('lib/chuck/helpers.js', 'client');
-    api.add_files('lib/chuck/instructions.js', 'client');
-    api.add_files('lib/chuck/lexer.js', 'client');
-    api.add_files('lib/chuck/logging.js', 'client');
-    api.add_files('lib/chuck/namespace.js', 'client');
-    api.add_files('lib/chuck/nodes.js', 'client');
-    api.add_files('lib/chuck/parser.js', 'client');
-    api.add_files('lib/chuck/parserService.js', 'client');
-    api.add_files('lib/chuck/scanner.js', 'client');
-    api.add_files('lib/chuck/types.js', 'client');
-    api.add_files('lib/chuck/ugen.js', 'client');
-    api.add_files('lib/chuck/vm.js', 'client');
-    api.add_files('lib/chuck/libs/math.js', 'client');
-    api.add_files('lib/chuck/libs/std.js', 'client');
-    api.add_files('lib/chuck/libs/stk.js', 'client');
-    api.add_files('lib/chuck/libs/ugens.js', 'client');
+Package.onUse(function(api) {
+  api.versionsFrom('METEOR@0.9.3');
+  api.addFiles('chuck.js', 'client');
 });
+
+// Package.onTest(function(api) {
+//   api.use('tinytest');
+//   api.use('aknudsen:chuckjs');
+//   api.addFiles('aknudsen:chuckjs-tests.js');
+// });
