@@ -1,6 +1,6 @@
 Package.describe({
   summary: 'Interpreter for the ChucK music programming language',
-  version: "0.1.1",
+  version: "0.1.4",
   name: 'aknudsen:chuckjs',
   git: "https://github.com/aknuds1/chuck",
 });
