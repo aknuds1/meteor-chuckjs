@@ -1,30 +1,34 @@
 Package.describe({
-    summary: 'JavaScript (CoffeeScript) parser for the ChucK language'
+    summary: 'Interpreter for the ChucK music programming language',
+    version: "0.2.0",
+    name: 'aknudsen:chuckjs',
+    git: 'https://github.com/aknuds1/chuck',
 });
 
-Package.on_use(function (api) {
+Package.onUse(function (api) {
+    api.versionsFrom('METEOR@1.0.3.1')
     api.use('lodash');
     api.use('underscore-string-latest');
     api.use('q');
     api.use('define');
 
-    api.add_files('replace_underscore.js');
-    api.add_files('lib/chuck.js', 'client');
-    api.add_files('lib/chuck/audioContextService.js', 'client');
-    api.add_files('lib/chuck/helpers.js', 'client');
-    api.add_files('lib/chuck/instructions.js', 'client');
-    api.add_files('lib/chuck/lexer.js', 'client');
-    api.add_files('lib/chuck/logging.js', 'client');
-    api.add_files('lib/chuck/namespace.js', 'client');
-    api.add_files('lib/chuck/nodes.js', 'client');
-    api.add_files('lib/chuck/parser.js', 'client');
-    api.add_files('lib/chuck/parserService.js', 'client');
-    api.add_files('lib/chuck/scanner.js', 'client');
-    api.add_files('lib/chuck/types.js', 'client');
-    api.add_files('lib/chuck/ugen.js', 'client');
-    api.add_files('lib/chuck/vm.js', 'client');
-    api.add_files('lib/chuck/libs/math.js', 'client');
-    api.add_files('lib/chuck/libs/std.js', 'client');
-    api.add_files('lib/chuck/libs/stk.js', 'client');
-    api.add_files('lib/chuck/libs/ugens.js', 'client');
+    api.addFiles('replace_underscore.js');
+    api.addFiles('lib/chuck.js', 'client');
+    api.addFiles('lib/chuck/audioContextService.js', 'client');
+    api.addFiles('lib/chuck/helpers.js', 'client');
+    api.addFiles('lib/chuck/instructions.js', 'client');
+    api.addFiles('lib/chuck/lexer.js', 'client');
+    api.addFiles('lib/chuck/logging.js', 'client');
+    api.addFiles('lib/chuck/namespace.js', 'client');
+    api.addFiles('lib/chuck/nodes.js', 'client');
+    api.addFiles('lib/chuck/parser.js', 'client');
+    api.addFiles('lib/chuck/parserService.js', 'client');
+    api.addFiles('lib/chuck/scanner.js', 'client');
+    api.addFiles('lib/chuck/types.js', 'client');
+    api.addFiles('lib/chuck/ugen.js', 'client');
+    api.addFiles('lib/chuck/vm.js', 'client');
+    api.addFiles('lib/chuck/libs/math.js', 'client');
+    api.addFiles('lib/chuck/libs/std.js', 'client');
+    api.addFiles('lib/chuck/libs/stk.js', 'client');
+    api.addFiles('lib/chuck/libs/ugens.js', 'client');
 });
