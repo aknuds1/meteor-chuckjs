@@ -7,10 +7,10 @@ Package.describe({
 
 Package.onUse(function (api) {
     api.versionsFrom('METEOR@1.0.3.1')
-    api.use('stevezhu:lodash');
-    api.use('underscorestring:underscore.string');
-    api.use('aramk:q');
-    api.use('mrt:define');
+    api.use('stevezhu:lodash@1.0.2');
+    api.use('underscorestring:underscore.string@2.4.0');
+    api.use('aramk:q@1.0.1');
+    api.use('mrt:define@0.11.0');
 
     api.addFiles('replace_underscore.js');
     api.addFiles('lib/chuck.js', 'client');
